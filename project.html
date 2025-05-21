@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sumaya Mohammad's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #d80027;
+    }
+
+    .navbar .nav-link, .navbar-brand {
+      color: white !important;
+    }
+
+    .intro {
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 20vh 10vw;
+    }
+
+    .btn-custom {
+      background-color: #d80027;
+      color: white;
+      border: none;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .progress {
+      height: 20px;
+    }
+
+    .progress-bar {
+      background-color: #d80027;
+    }
+
+    .experience-card {
+      background: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .experience-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 3px solid #d80027;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: #000;
+      color: #ccc;
+      padding: 1rem;
+    }
+
+    .scroll-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      text-align: center;
+      background-color: #d80027;
+      border-radius: 6px;
+      width: 40px;
+      height: 40px;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.3s;
+      text-decoration: none;
+    }
+
+    .scroll-top:hover {
+      opacity: 0.8;
+    }
+
+    .arrow-up {
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio.</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="intro">
+    <h1>Hello there, my name is <strong>Sumaya Mohammad</strong></h1>
+    <h3>And I'm a <span style="color: #ff4c68;">Frontend Developer</span></h3>
+    <a href="#contact" class="btn btn-custom mt-3">Hire me</a>
+  </section>
+
+  <section id="about">
+    <h2>About me <br><small>who I am</small></h2>
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center">
+        <img src="laptop2.jpeg" class="img-fluid rounded" alt="Profile Image" style="max-width: 300px;">
+      </div>
+      <div class="col-md-6">
+        <h4>I'm Sumaya Mohammad and I'm a <span style="color: #d80027;">Pro!</span></h4>
+        <p>Currently pursuing an undergraduate degree in Cybersecurity at Queensborough Community College. I like reading books and listening to foreign music. Every interaction I have, I receive it with an open mind willing to listen, understand, learn, and share experiences with others. I consider myself a lifelong learner motivated to grow, excel and use my knowledge to better the lives of others through the power of technology.</p>
+        <a href="cv.jpg" class="btn btn-custom" target="_blank">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects <br><small>what I built</small></h2>
+    <div class="container p-4" style="border: 2px solid #ccc; border-radius: 12px; background-color: #f9f9f9;">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <a href="https://sumayamohammad.github.io/ET710/" target="_blank" style="text-decoration: none;">
+            <div class="experience-card">
+              <img src="laptop.jpg" alt="Project Screenshot" />
+              <p style="color: #0af; font-weight: bold;">Bank of React</p>
+              <p>Built a front-end application in React that simulates a banking website. Has features such as login, user profile, and debit and credit menu.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/sumayamohammad/ET710/blob/main/project-2/project(bootstrap).html" target="_blank" style="text-decoration: none;">
+            <div class="experience-card">
+              <img src="laptop.jpg" alt="Project Screenshot" />
+              <p style="color: #0af; font-weight: bold;">Hare and Tortoise</p>
+              <p>Built a hare and tortoise competition program using object-oriented programming in C++.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/sumayamohammad/ET710/tree/main/Lab-7-main" target="_blank" style="text-decoration: none;">
+            <div class="experience-card">
+              <img src="laptop.jpg" alt="Project Screenshot" />
+              <p style="color: #0af; font-weight: bold;">CUNYFirst Clone</p>
+              <p>Built a full stack CRUD application using HTML, CSS, JavaScript, React, Redux, Node.js, Express, PostgreSQL. It's a clone of "CUNY First" website.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/sumayamohammad/ET710/tree/main/Lab-5-main" target="_blank" style="text-decoration: none;">
+            <div class="experience-card">
+              <img src="laptop.jpg" alt="Project Screenshot" />
+              <p style="color: #0af; font-weight: bold;">FlashcardApp</p>
+              <p>Used Java to build out a flashcard app, where the user can create and display multiple-choice questions and build in logic to show the answer.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/sumayamohammad/ET710/tree/main/lab-10" target="_blank" style="text-decoration: none;">
+            <div class="experience-card">
+              <img src="laptop.jpg" alt="Project Screenshot" />
+              <p style="color: #0af; font-weight: bold;">Game 1024</p>
+              <p>Built a logic and problem game using two tiles with the same number touch, they merge into one tile with same number they summed to one.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <a href="https://sumayamohammad.github.io/ET710/" target="_blank" style="text-decoration: none;">
+            <div class="experience-card">
+              <img src="laptop.jpg" alt="Project Screenshot" />
+              <p style="color: #0af; font-weight: bold;">Light & Sound Game</p>
+              <p>Built a game where play progresses to the next turn after a correct guess. User loses the game after an incorrect guess.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills <br><small>what I know</small></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p><strong>My creative skills & experiences.</strong></p>
+        <p>I have practiced and applied knowledge in web development, security principles, and user-focused designs.</p>
+        <a href="#" class="btn btn-custom">Read more</a>
+      </div>
+      <div class="col-md-6">
+        <p>HTML</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:90%">90%</div></div>
+        <p>CSS</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:70%">70%</div></div>
+        <p>JavaScript</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:80%">80%</div></div>
+        <p>C++</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:80%">80%</div></div>
+        <p>Python</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:60%">60%</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>My Experiences <br><small>what I did</small></h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="experience-card">
+          <img src="laptop.jpg" alt="Experience">
+          <h5>Experience 1</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <img src="laptop.jpg" alt="Experience">
+          <h5>Experience 2</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="experience-card">
+          <img src="laptop.jpg" alt="Experience">
+          <h5>Experience 3</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact me <br><small>get in touch</small></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Let’s connect and build something amazing together.</p>
+        <p><strong>Name:</strong> Sumaya Mohammad</p>
+        <p><strong>Address:</strong> Queens, New York</p>
+        <p><strong>Email:</strong> sumaya.mohammad@email.com</p>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <input type="text" class="form-control mb-2" placeholder="Name">
+          <input type="email" class="form-control mb-2" placeholder="Email">
+          <input type="text" class="form-control mb-2" placeholder="Subject">
+          <textarea class="form-control mb-2" rows="4" placeholder="Message.."></textarea>
+          <button class="btn btn-custom">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Created by <span style="color:#ff4c68;">Sumaya Mohammad</span> | &copy; 2025 All rights reserved.</p>
+  </footer>
+
+  <a href="#" class="scroll-top">
+    <div class="arrow-up"></div>
+  </a>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
